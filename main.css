@@ -4,6 +4,7 @@ html {
     background-repeat: no-repeat;
     background-position: 0px 100px;
     background-size: 1366px 768px;
+    overflow-y: scroll;
     -webkit-font-smoothing: antialiased;
 }
 
