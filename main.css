@@ -2,14 +2,14 @@ html {
     background: #e6e9e9;
     background-image: url("iphone8.jpg");
     background-repeat: no-repeat;
-    width: 1346px;
-    height: 868px;
-    padding-right: 20px;
     background-position: 0px 100px;
+    background-size: 1366px 768px;
     -webkit-font-smoothing: antialiased;
 }
 
 body {padding: 0; margin: 0}
+
+
 
 #rectangle {
     width: 1366px;
