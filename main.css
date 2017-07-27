@@ -33,16 +33,9 @@ h1 {
     padding-top: 5px;
 }
 
-img {
-    height: 128px;
-    width: 128px;
-    padding-left: 50px;
-    padding-top: 230px;
-}
-
 .vertical-menu {
     width: 200px;/* Set a width if you like */
-    object-position: top;
+    padding-top: 20px;
 }
 
 .vertical-menu a {
@@ -51,13 +44,15 @@ img {
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
+    font-family: sans-serif;
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: rgba(0,102,102,1); /* Dark grey background on mouse-over */
+    color: aliceblue;
 }
 
 .vertical-menu a.active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    background-color: rgba(255, 204, 153, 1);
     color: white;
 }
