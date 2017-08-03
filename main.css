@@ -6,13 +6,16 @@ html {
     background-size: 1366px 768px;
     overflow-y: scroll;
     height: 868px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
 }
 
 body {padding: 0; margin: 0}
 
-
+@font-face {
+    font-family: AppleFont;
+    src: url(AppleFont.ttf);
+}
 
 #rectangle {
     width: 1366px;
@@ -27,7 +30,7 @@ body {padding: 0; margin: 0}
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: AppleFont;
     font-size: 200%;
     position: relative;
     padding-top: 5px;
@@ -44,7 +47,7 @@ h1 {
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
-    font-family: sans-serif;
+    font-family: AppleFont;
 }
 
 .vertical-menu a:hover {
