@@ -42,3 +42,10 @@ p {
     width: 210px;
     height: 400px;
 }
+
+#AppStore {
+    padding-top: 550px;
+    padding-left: 400px;
+    font-size: 100%;
+    font-family: sans-serif;
+}
