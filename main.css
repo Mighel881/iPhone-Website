@@ -2,7 +2,7 @@ html {
     background: #e6e9e9;
     background-image: url("iphone8.jpg");
     background-repeat: no-repeat;
-    background-position: 0px 100px;
+    background-position: -100px 100px;
     background-size: 1566px 968px;
     overflow-y: scroll;
     height: 868px;
@@ -38,7 +38,9 @@ h1 {
 
 .vertical-menu {
     width: 200px;/* Set a width if you like */
-    padding-top: 20px;
+    padding-top: 15px;
+    border-style: solid;
+    border-width: 5px:
 }
 
 .vertical-menu a {
