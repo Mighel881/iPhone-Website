@@ -58,7 +58,7 @@ p {
     font-size: 115%;
     padding-top: 100px;
     position: absolute;
-    padding-left: 50px;
+    padding-left: 100px;
     
      -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
@@ -96,9 +96,9 @@ p {
 }
 
 #AppStore_PIC {
-    padding-top: 750px;
-    padding-right: 800px;
-    padding-left: 50px;
+    padding-top: 770px;
+    padding-right: 900px;
+    padding-left: 0px;
     height: 403px;
     width: 550px;
     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
