@@ -58,7 +58,7 @@ p {
     font-size: 115%;
     padding-top: 100px;
     position: absolute;
-    padding-left: 100px;
+    padding-left: 200px;
     
      -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
@@ -83,7 +83,7 @@ p {
 #AppStore {
     padding-top: 570px;
     padding-left: 400px;
-    padding-right: 20px;
+    padding-right: 150px;
     font-size: 115%;
     font-family: AppleFont;
     text-align: right;
