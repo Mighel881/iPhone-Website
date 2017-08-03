@@ -27,28 +27,51 @@ html {
     background-color: grey;
 }
 
-.vertical-menu {
-    width: 200px;
-    position: absolute;
-    top: 70px;
-    left: 0;
-}
-
-.vertical-menu a {
-    background-color: lightgray; 
-    color: black; 
-    display: block; 
-    padding: 12px; 
-    text-decoration: none; 
-    font-family: AppleFont;
-}
-
-.vertical-menu a:hover {
-    background-color: rgba(0,102,102,1); 
-    color: aliceblue;
-}
-
-.vertical-menu a.active {
+/* Dropdown Button */
+.dropbtn {
     background-color: rgba(255, 204, 153, 1);
     color: white;
+    padding: 16px;
+    font-family: AppleFont;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 204, 153, 1);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    font-family: AppleFont;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(0,102,102,1)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgba(0,102,102,1);
 }
