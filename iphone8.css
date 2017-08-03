@@ -1,5 +1,56 @@
 html {
-    background: grey;
-
+    background-color: lightgray;
+    background-size: 850px 900px;
+    overflow-x: hidden;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
+@font-face {
+    font-family: AppleFont;
+    src: url(AppleFont.ttf);
+}
+
+#Header {
+    font-family: AppleFont;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+
+#rectangle {
+    width: 1366px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: grey;
+}
+
+.vertical-menu {
+    width: 200px;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;
+    top: 70px;
+    left: 0;
+}
+
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+.vertical-menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
