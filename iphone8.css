@@ -3,6 +3,7 @@ html {
     background-size: 850px 900px;
     overflow-x: hidden;
     margin: 0;
+    overflow-y: scroll;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -31,6 +32,8 @@ html {
 .dropbtn {
     background-color: rgba(255, 204, 153, 1);
     color: white;
+    position: fixed;
+    left: 0;
     padding: 16px;
     font-family: AppleFont;
     font-size: 16px;
