@@ -32,12 +32,12 @@ html {
     width: 200px;
     padding-top: 50px;
     position: absolute;
-    bottom: 376px;
+    bottom: 377px;
     left: 0px;
 }
 
 .vertical-menu a {
-    background-color: #e6e9e9; 
+    background-color: lightgray; 
     color: black; 
     display: block; 
     padding: 12px; 
