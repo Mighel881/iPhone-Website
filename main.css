@@ -37,23 +37,23 @@ h1 {
 }
 
 .vertical-menu {
-    width: 200px;/* Set a width if you like */
+    width: 200px;
     padding-top: 15px;
     border-style: solid;
     border-width: 5px:
 }
 
 .vertical-menu a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
     font-family: AppleFont;
 }
 
 .vertical-menu a:hover {
-    background-color: rgba(0,102,102,1); /* Dark grey background on mouse-over */
+    background-color: rgba(0,102,102,1); 
     color: aliceblue;
 }
 
