@@ -1,0 +1,90 @@
+html {
+    background-color: lightgray;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: AppleFont;
+    src: url(AppleFont.ttf);
+}
+
+h1 {
+    font-family: AppleFont;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 5px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+p {
+    font-family: AppleFont;
+    font-size: 105%;
+    text-align: center;
+    padding-top: 180px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+.vertical-menu {
+    width: 200px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 450px;
+    left: 0px;
+}
+
+.vertical-menu a {
+    background-color: lightgray; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+
+.vertical-menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+.vertical-menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
