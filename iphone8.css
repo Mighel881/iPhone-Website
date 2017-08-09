@@ -15,17 +15,30 @@ html {
 #Header {
     font-family: AppleFont;
     text-align: center;
-    font-size: 150%;
+    font-size: 160%;
     color: white;
+    top: 0;
+    z-index: 10;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
 }
 
 #rectangle {
     width: 1366px;
     height: 70px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    z-index: -10;
     background-color: grey;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
 }
 
 .vertical-menu {
@@ -34,6 +47,11 @@ html {
     position: absolute;
     bottom: 377px;
     left: 0px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
 }
 
 .vertical-menu a {
@@ -53,4 +71,33 @@ html {
 .vertical-menu a.active {
     background-color: rgba(255, 204, 153, 1);
     color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
