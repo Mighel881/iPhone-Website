@@ -116,6 +116,13 @@ p {
     
 }
 
+#ios11icons { 
+    padding-top: 1150px;
+    padding-left: 650px;
+    height: 45%;
+    width: 30%;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
