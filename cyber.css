@@ -39,6 +39,11 @@ p {
     position: absolute;
     bottom: 450px;
     left: 0px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
 }
 
 .vertical-menu a {
