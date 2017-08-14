@@ -25,7 +25,7 @@ p {
     font-family: AppleFont;
     font-size: 105%;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 80px;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
@@ -33,9 +33,14 @@ p {
             animation: fadein 5s;
 }
 
+#cyberpic {
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
 .vertical-menu {
     width: 200px;
-    padding-top: 15px;
+    padding-top: 100px;
     position: absolute;
     bottom: 450px;
     left: 0px;
