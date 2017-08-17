@@ -9,6 +9,13 @@ html {
     src: url(AppleFont.ttf);
 }
 
+#rectangle {
+    width: 1366px;
+    height: 100px;
+    position: fixed;
+    color: aqua;
+}
+
 h1 {
     font-family: AppleFont;
     font-size: 160%;
