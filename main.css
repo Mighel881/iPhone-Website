@@ -33,7 +33,7 @@ h1 {
     font-family: AppleFont;
     font-size: 200%;
     position: relative;
-    padding-top: 5px;
+    margin-top: 30px;
 }
 
 .vertical-menu {
@@ -41,7 +41,7 @@ h1 {
     padding: 0;
     border-style: solid;
     border-width: 5px;
-    margin-top: 37px;
+    margin-top: 30px;
     list-style-type: none;
 }
 
