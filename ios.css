@@ -29,7 +29,7 @@ img {
 h1 {
     font-family: AppleFont;
     font-size: 150%;
-    padding-top: 300px;
+    margin-top: 300px;
     text-align: center;
     
      -webkit-animation: fadein 5s; 
@@ -55,10 +55,10 @@ p {
 #CC {
     font-family: AppleFont;
     text-align: left;
-    font-size: 105%;
-    padding-top: 100px;
+    font-size: 100%;
+    margin-top: 100px;
     position: absolute;
-    padding-left: 200px;
+    margin-left: 200px;
     
      -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s; 
@@ -68,11 +68,10 @@ p {
 }
 
 #CC_pic {
-    padding-left: 800px;
-    padding-top: 450px;
+    margin-left: 930px;
+    margin-top: 450px;
     width: 210px;
     height: 400px;
-    
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s; 
         -ms-animation: fadein 5s; 
@@ -81,9 +80,9 @@ p {
 }
 
 #AppStore {
-    padding-top: 570px;
-    padding-left: 300px;
-    padding-right: 40px;
+    margin-top: 500px;
+    margin-left: 300px;
+    margin-right: 40px;
     font-size: 105%;
     font-family: AppleFont;
     text-align: right;
@@ -96,11 +95,11 @@ p {
 }
 
 #AppStore_PIC {
-    padding-top: 770px;
-    padding-right: 900px;
-    padding-left: 100px;
-    height: 403px;
-    width: 550px;
+    margin-top: 735px;
+    margin-right: 900px;
+    margin-left: 200px;
+    height: 353px;
+    width: 500px;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
@@ -109,21 +108,20 @@ p {
 }
 
 #NewIcons {
-    padding-top: 60px;
-    padding-left: 200px;
+    margin-top: 160px;
+    margin-left: 200px;
     text-align: left;
     font-size: 105%;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
          -o-animation: fadein 5s; 
-            animation: fadein 5s;
-    
+            animation: fadein 5s;   
 }
 
 #ios11icons { 
-    padding-top: 1150px;
-    padding-left: 650px;
+    margin-top: 1150px;
+    margin-left: 800px;
     height: 40%;
     width: 30%;
     -webkit-animation: fadein 5s; 
@@ -164,9 +162,9 @@ p {
 
 .vertical-menu {
     width: 200px;
-    padding-top: 15px;
-    position: absolute;
-    bottom: 400px;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 450px;
     left: 0px;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s; 
