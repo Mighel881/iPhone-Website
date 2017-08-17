@@ -16,7 +16,7 @@ img {
     position: absolute;
     display: block;
     margin: auto;
-    padding-top: 20px;
+    margin-top: 20px;
     top: 0; bottom 1; left: 0; right:0;
     
      -webkit-animation: fadein 5s; 
