@@ -78,7 +78,7 @@ h1 {
 .vertical-menu {
     width: 200px;
     padding-top: 15px;
-    position: absolute;
+    position: fixed;
     bottom: 450px;
     left: 0px;
     -webkit-animation: fadein 5s; 
