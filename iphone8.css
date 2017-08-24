@@ -34,8 +34,9 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -10;
     background-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
@@ -77,12 +78,32 @@ html {
             animation: fadein 5s;
 }
 
+#ios11 {
+    font-family: AppleFont;
+    text-align: right;
+    font-size: 105%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#function {
+    margin-left: 650px;
+    height: 40%;
+    width: 40%;
+    box-shadow: 0px 0px 10px;
+}
+
 .vertical-menu {
     width: 200px;
-    margin-top: 50px;
+    margin-top: -30px;
     position: fixed;
-    bottom: 377px;
     left: 0px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 0;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
