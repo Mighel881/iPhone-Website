@@ -1,4 +1,6 @@
-html {
+/* Begin Home page CSS */
+
+#main_html {
     background: #e6e9e9;
     background-image: url("img/iphone8.jpg");
     background-repeat: no-repeat;
@@ -10,11 +12,11 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {padding: 0; margin: 0}
+#main_body {padding: 0; margin: 0}
 
 @font-face {
     font-family: AppleFont;
-    src: url(AppleFont.ttf);
+    src: url(font/AppleFont.ttf);
 }
 
 #rectangle {
@@ -28,24 +30,223 @@ body {padding: 0; margin: 0}
     border-color: black;
 }
 
-h1 {
+#header {
     text-align: center;
     font-family: AppleFont;
     font-size: 200%;
-    position: relative;
-    margin-top: 30px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -840px;
 }
 
-.vertical-menu {
+#main_menu {
     width: 200px;
     padding: 0;
     border-style: solid;
     border-width: 5px;
-    margin-top: 30px;
+    margin-top: -768px;
     list-style-type: none;
 }
 
-.vertical-menu a {
+#main_menu a {
+    background-color: #e6e9e9; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+#main_menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+#main_menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
+
+#PageBody {
+   display:none;
+   height: 100%;
+}
+
+/* Begin iOS 11 page CSS */
+
+#ios_html {
+    background: #e6e9e9;
+    background-size: 850px 900px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: AppleFont;
+    src: url(font/AppleFont.ttf);
+}
+
+#logo11 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin: auto;
+    margin-top: 20px;
+    top: 0; bottom 1; left: 0; right:0;
+     -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ios11_title {
+    font-family: AppleFont;
+    font-size: 150%;
+    margin-top: 300px;
+    text-align: center;
+    
+     -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ios11_subtitle {
+    font-family: AppleFont;
+    text-align: center;
+    font-size: 120%;
+     -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    
+}
+
+#CC {
+    font-family: AppleFont;
+    text-align: left;
+    font-size: 100%;
+    margin-top: -300px;
+    position: absolute;
+    margin-left: 200px;
+     -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#CC_pic {
+    margin-left: 1045px;
+    margin-top: 0px;
+    width: 210px;
+    height: 400px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    box-shadow: 0px 0px 10px;
+}
+
+#AppStore11 {
+    margin-top: -250px;
+    margin-right: 70px;
+    font-size: 105%;
+    font-family: AppleFont;
+    text-align: right;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#AppStore_PIC {
+    margin-top: 50px;
+    margin-right: 900px;
+    margin-left: 210px;
+    height: 353px;
+    width: 500px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    box-shadow: 0px 0px 10px;
+}
+
+#NewIcons {
+    margin-top: 160px;
+    margin-left: 200px;
+    text-align: left;
+    font-family: AppleFont;
+    font-size: 105%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;   
+}
+
+#ios11icons { 
+    margin-top: -225px;
+    margin-left: 855px;
+    height: 40%;
+    width: 30%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    box-shadow: 0px 0px 10px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#ios11_menu {
+    width: 200px;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 450px;
+    left: 0px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ios11_menu a {
     background-color: #e6e9e9; 
     color: black; 
     display: block; 
@@ -54,17 +255,399 @@ h1 {
     font-family: AppleFont;
 }
 
-.vertical-menu a:hover {
+#ios11_menu a:hover {
     background-color: rgba(0,102,102,1); 
     color: aliceblue;
 }
 
-.vertical-menu a.active {
+#ios11_menu a.active {
     background-color: rgba(255, 204, 153, 1);
     color: white;
 }
 
-#PageBody {
-   display:none;
-   height: 100%;
+/* Begin iPhone 8 page CSS */
+
+#ip8_html {
+    background-color: lightgray;
+    background-size: 850px 900px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: AppleFont;
+    src: url(font/AppleFont.ttf);
+}
+
+#Header {
+    font-family: AppleFont;
+    position: fixed;
+    top: 0;
+    margin-left: 350px;
+    z-index: 1;
+    font-size: 160%;
+    color: white;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ip8_rectangle {
+    width: 1366px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    -webkit-animation: fadein 3s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 3s;
+}
+
+#Camera {
+    font-family: AppleFont;
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 10px;
+    font-size: 105%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#camera_pic {
+    margin-left: 550px;
+    box-shadow: 0px 0px 10px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#Screen_ip8 {
+    font-family: AppleFont;
+    text-align: right;
+    font-size: 105%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ios11 {
+    font-family: AppleFont;
+    text-align: right;
+    font-size: 105%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#function {
+    margin-left: 650px;
+    height: 40%;
+    width: 40%;
+    box-shadow: 0px 0px 10px;
+}
+
+#ip8_menu {
+    width: 200px;
+    margin-top: -30px;
+    position: fixed;
+    left: 0px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 0;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#ip8_menu a {
+    background-color: lightgray; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+
+#ip8_menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+#ip8_menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
+
+/* Begin Original iPhone page CSS */
+
+#original_html {
+    background-color: white;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: AppleFont;
+    src: url(font/AppleFont.ttf);
+}
+
+#original_rectangle {
+    height: 100px;
+    position: fixed;
+    color: aqua;
+}
+
+#original_title {
+    font-family: AppleFont;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 5px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#Screen {
+    font-family: AppleFont;
+    font-size: 105%;
+    text-align: center;
+    margin-top: 100px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#AppStore {
+    font-family: AppleFont;
+    text-align: center;
+    font-size: 105%;
+    margin-top: 20px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#iphone2g {
+    margin-left: 475px;
+    height: 25%;
+    width: 25%;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    
+}
+
+#jailbreak {
+    font-family: AppleFont;
+    text-align: center;
+    font-size: 105%;
+    margin-top: 30px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    
+}
+
+#jailbreak_pic {
+    margin-left: 350px;
+    box-shadow: 0px 0px 10px;
+}
+
+#original_menu {
+    width: 200px;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 450px;
+    left: 0px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#original_menu a {
+    background-color: white; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+
+#original_menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+#original_menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Begin Cybersafety page CSS */
+
+#cyber_html {
+    background-color: lightgray;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: AppleFont;
+    src: url(font/AppleFont.ttf);
+}
+
+#cyber_title {
+    font-family: AppleFont;
+    font-size: 160%;
+    text-align: center;
+    margin-top: 5px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#cybersafety {
+    font-family: AppleFont;
+    font-size: 105%;
+    text-align: center;
+    margin-top: 80px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#cyberpic {
+    margin-left: 500px;
+    margin-top: 70px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+    box-shadow: 0px 0px 10px;
+}
+
+#cyber_menu {
+    width: 200px;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 450px;
+    left: 0px;
+    -webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s;
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+#cyber_menu a {
+    background-color: lightgray; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: AppleFont;
+}
+
+#cyber_menu a:hover {
+    background-color: rgba(0,102,102,1); 
+    color: aliceblue;
+}
+
+#cyber_menu a.active {
+    background-color: rgba(255, 204, 153, 1);
+    color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
