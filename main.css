@@ -127,7 +127,7 @@
 #CC {
     font-family: AppleFont;
     text-align: left;
-    font-size: 100%;
+    font-size: 110%;
     margin-top: -300px;
     position: absolute;
     margin-left: 200px;
@@ -153,8 +153,8 @@
 
 #AppStore11 {
     margin-top: -250px;
-    margin-right: 70px;
-    font-size: 105%;
+    margin-right: 50px;
+    font-size: 110%;
     font-family: AppleFont;
     text-align: right;
     -webkit-animation: fadein 5s; 
@@ -183,7 +183,7 @@
     margin-left: 200px;
     text-align: left;
     font-family: AppleFont;
-    font-size: 105%;
+    font-size: 110%;
     -webkit-animation: fadein 5s; 
        -moz-animation: fadein 5s;
         -ms-animation: fadein 5s; 
