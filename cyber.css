@@ -41,6 +41,7 @@ p {
         -ms-animation: fadein 5s; 
          -o-animation: fadein 5s; 
             animation: fadein 5s;
+    box-shadow: 0px 0px 10px;
 }
 
 .vertical-menu {
