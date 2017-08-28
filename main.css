@@ -20,7 +20,7 @@
 }
 
 #rectangle {
-    width: 1366px;
+    width: 100%;
     height: 100px;
     position: absolute;
     top: 0;
